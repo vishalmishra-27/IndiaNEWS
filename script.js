@@ -1,6 +1,6 @@
 const API_KEY = "9a75f4d8313e43a69ece4fdddbc8c429";
 
-const url = "http://newsapi.org/v2/everything?q="
+const url = "https://newsapi.org/v2/everything?q="
 
 window.addEventListener("load", () => fetchNews("India Delhi Mumbai Uttar Pradesh"));
 
