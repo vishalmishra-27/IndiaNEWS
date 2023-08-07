@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#navbar2{
+    display: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+nav{
+    padding-inline:  10px;
+    background: black;
+    position: fixed;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    z-index: 99;
+}
+
+main{
+    padding-inline: 10px;
+}
+
+.main-nav{
+    justify-content: space-between;
+    padding-block: 8px;
+}
+
+.company-logo img{
+    width: 135px;
+}
+
+.nav-links ul{
+    gap: 16px;
+}
+
+.nav-links ul li{
+    color: white;
+}
+
+.hover-link{
+    cursor: pointer;
+}
+
+.hover-link:hover{
+    color: #577592;
+}
+
+.hover-link:active{
+    color: rgb(153, 77, 77);
+}
+
+.search-bar{
+    height: 32px;
+    gap: 8px;
+}
+
+.search-button{
+    background-color: #639ed7;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search-button:hover{
+    background-color: #577592;
+}
+
+.news-input{
+    width: 200px;
+    height: 100%;
+    padding-inline: 12px;
+    border-radius: 4px;
+    border: 2px solid rgb(156, 43, 43);
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    padding-block: 20px;
+    margin-top: 80px;
+}
+
+.cards-container{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 10px;
+    align-items: start;
+}
+
+.card{
+    width: 360px;
+    height: 30rem;
+    box-shadow: 0px 0px 4px #577592;
+    border-radius: 4px;
+    cursor: pointer;
+    background: #ffffff;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card:hover{
+    box-shadow: 1px 1px 8px #577592;
+    background-color: #f9fdff;
+    transform: translateY(-2px);
+}
+
+.card-header img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.card-content{
+    padding: 12px;
+}
+
+.news-source{
+    margin-block: 12px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    color: #577592;
+    line-height: 1.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+.nav-item.active{
+    color: aqua;
+}

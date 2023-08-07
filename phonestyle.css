@@ -1,0 +1,22 @@
+#navbar1 {
+    display: none;
+}
+
+#navbar2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#navbar2 a img {
+    padding-top: 5px;
+}
+
+.card{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    height: auto;
+    max-height: 35rem;
+}
